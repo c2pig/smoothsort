@@ -1,5 +1,5 @@
-const SmoothSort = require('../SmoothSort');
-const { generator } = require('./utils');
+const SmoothSort = require("../SmoothSort");
+const { generator } = require("./utils");
 
 const arr = generator(8, false).reverse();
 console.log(`Unsorted List: ${arr}`);
